@@ -1,0 +1,286 @@
+﻿.barrita {
+    background-color: rgb(0, 102, 102);
+    height: 100px;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+h1 {
+    color: rgb(0, 102, 102);
+    font-weight:bold;
+}
+
+h2 {
+    color: rgb(0, 102, 102);
+}
+
+h3 {
+    color: rgb(44, 62, 80);
+}
+
+h4 {
+    color: rgb(52, 73, 94);
+}
+
+.Espacio {
+    height: 100px;
+    width: 100%;
+}
+
+.PrecargarIMG {
+    box-shadow: 0 0 15px #999;
+    width: 100px;
+}
+
+.subtitulo {
+    color: rgb(86, 101, 115);
+    font-size: medium;
+}
+
+.imgg {
+    box-shadow: 0 0 15px #999;
+    border-radius: 50%;
+    width: 8%;
+    float: left !important;
+    margin-right: 15px;
+}
+
+#btnCreade {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 80px;
+}
+
+#Espace {
+    height: 30px;
+}
+
+.ac {
+    margin-top: 35px;
+}
+
+.btnequipo {
+    margin-left: 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0,153,153);
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    padding: 10px 50px; /* Relleno del boton */
+}
+
+    .btn:hover {
+        background-color: rgb(0, 102, 102); /* Color de fondo al pasar el cursor */
+        color: white;
+    }
+
+.btnMini {
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0,153,153);
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    padding: 5px 25px; /* Relleno del boton */
+}
+
+.btnCancelar {
+    border: none;
+    border-radius: 6px;
+    background-color:crimson;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    padding: 10px 50px; /* Relleno del boton */
+}
+
+.btnCancelar:hover {
+    background-color:darkred; /* Color de fondo al pasar el cursor */
+    color: white;
+}
+
+.btnprincipales {
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0,153,153);
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 60px; /* Relleno del boton */
+    width: 300px;
+}
+
+.btnprincipales:hover {
+    background-color: rgb(0, 102, 102); /* Color de fondo al pasar el cursor */
+    color: white;
+}
+
+.btnsecundario {
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(118,113,113);
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 40px; /* Relleno del boton */
+}
+
+.btnsecundario:hover {
+    background-color: rgb(175, 171, 171);
+    /* Color de fondo al pasar el cursor */
+    color: white;
+}
+
+.btnnaranja {
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: auto;
+    padding: 10px 50px; /* Relleno del boton */
+    background-color: rgb(238,134,64);
+    width: 300px;
+}
+
+.btnnaranja:hover {
+    background-color:chocolate;
+    /* Color de fondo al pasar el cursor */
+    color: white;
+}
+
+.btnverde {
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: auto;
+    padding: 10px 50px; /* Relleno del boton */
+    background-color: rgb(0,204,102);
+    width: 300px;
+}
+
+#index {
+    text-align: center;
+}
+
+#Registro {
+    margin-bottom: 30px;
+}
+
+#PreVisualizar-Avatar {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#btnIngresa {
+    color: #fff;
+}
+
+.btnCancel {
+    background-color: rgb(118,113,113);
+    color: #fff;
+}
+
+.btnCancel:hover {
+    background-color: rgba(255, 0, 0, 0.582);
+    /* Color de fondo al pasar el cursor */
+    color: white;
+}
+
+.btnRegistrate {
+    color: #fff;
+    background-color: rgb(238,134,64);
+    font-size:50px !important;
+}
+
+    #btnRegistrate:hover {
+        background-color: rgb(255, 204,102); /* Color de fondo al pasar el cursor */
+        color: rgb(238, 237, 237);
+    }
+
+#btnEditar, #btnAtras {
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    border: none;
+}
+.etiqueta {
+    font-size:medium;
+}
+
+.btnP {
+    font-size: 16px;
+    font-weight: 200;
+    width: 12px;
+    height: 8px;
+}
+/*.lblcampo {
+    font-family: "Open Sans","Arial","Helvetica","Segoe UI Symbol","Segoe MDL2 Assets" !important;
+    font-size:40px !important;
+    text-decoration:wavy;
+}*/
+#lblNomEquipo
+{
+    font-size:55px;
+}
+.imgTableroInsignias {
+    height: 114px;
+    width:168px;
+}
+.body-center{
+    height:100vh;
+    position:relative;
+}
+.gridview-center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,%50)
+}
+.centry .centrys
+{
+    font-size:25px !important;
+    text-align:center !important;
+}
+.centry
+{
+    text-align:center;
+}
